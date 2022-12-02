@@ -6,7 +6,7 @@ Note that GSV is seen as the composition of Euler B and Euler A numerical scheme
 * It currently uses the [BlockArrays.jl](https://github.com/JuliaArrays/BlockArrays.jl) package.
 
 ## Folder composition
-* Use the RM(G)HMC methods inside the main.jl file for 1d sampling, and main_nd.jl for multi-dimensional sampling.
+* Use the RM(G)HMC methods inside the ```main.jl``` file for one-dimensional sampling, and ```main_nd.jl``` for multi-dimensional sampling.
 * See the files ```rmhmc_test.jl``` and ```rmhmc_test_nd.jl``` for examples on how to implement the different functions needed for RMHMC (potential energy function, diffusion coefficient, etc.)
 
 ## Improvements in the future:
